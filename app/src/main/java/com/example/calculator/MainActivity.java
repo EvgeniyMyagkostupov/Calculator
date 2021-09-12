@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         EditText el2 = (EditText) findViewById(R.id.Num2);
         TextView resText = (TextView) findViewById(R.id.Results);
 
-
         int num1 = Integer.parseInt(el1.getText().toString());
         int num2 = Integer.parseInt(el2.getText().toString());
         int resSum = num1 + num2;
